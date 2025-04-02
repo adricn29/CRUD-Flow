@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using CRUDApp.Models;
 
-namespace CRUDApp.Data
+namespace CRUDApp.Data  // Asegúrate de que esté en este namespace o similar
 {
     public class AppDbContext : DbContext
     {
